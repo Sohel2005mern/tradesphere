@@ -196,8 +196,7 @@ app.use(bodyParser.json());
 //   res.send("Done!");
 // });
 
-// app.get("/allHoldings", authMiddleware, async (req, res) => {
-  app.get("/allHoldings", async (req, res) => {
+app.get("/allHoldings", authMiddleware, async (req, res) => {
   let allHoldings = await HoldingsModel.find({});
   res.json(allHoldings);
 });
