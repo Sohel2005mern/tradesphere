@@ -67,6 +67,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import logo from "../assets/tradesphere-logo.png";
+
 function Navbar() {
   return (
     <nav
@@ -76,7 +78,7 @@ function Navbar() {
       <div className="container p-2">
         <Link className="navbar-brand" to="/">
           <img
-            src="/tradesphere-logo.png"
+            src={logo}
             alt="TradeSphere"
             style={{ height: "40px" }}
           />
