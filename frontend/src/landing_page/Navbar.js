@@ -80,7 +80,7 @@ function Navbar() {
           <img
             src={logo}
             alt="TradeSphere"
-            style={{ height: "55px", width: "auto" }}
+            style={{ height: "85px", width: "auto" }}
           />
         </Link>
 
