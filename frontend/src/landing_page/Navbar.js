@@ -10,7 +10,7 @@ function Navbar() {
       <div class="container p-2">
         <Link class="navbar-brand" to="/">
           <img
-            src="media/logo.svg"
+            src="media/tradesphere-logo.png"
             style={{ width: "25%" }}
             alt="Logo"
           />
