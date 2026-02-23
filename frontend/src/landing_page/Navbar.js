@@ -76,7 +76,7 @@ function Navbar() {
       <div className="container p-2">
         <Link className="navbar-brand" to="/">
           <img
-            src="/media/tradesphere-logo.png"
+            src="/tradesphere-logo.png"
             alt="TradeSphere"
             style={{ height: "40px" }}
           />
