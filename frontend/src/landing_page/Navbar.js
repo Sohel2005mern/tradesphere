@@ -67,7 +67,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../assets/tradesphere-logo.png";
+import logo from "../assets/logo.png";
 
 function Navbar() {
   return (
