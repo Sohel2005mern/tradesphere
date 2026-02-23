@@ -83,7 +83,7 @@ function Login() {
     localStorage.setItem("username", data.user.username);
 
     window.location.href =
-      "http://localhost:3001/?token=" +
+      "https://tradesphere-dashboard-gz8a.onrender.com/?token=" +
       data.token +
       "&username=" +
       data.user.username;
